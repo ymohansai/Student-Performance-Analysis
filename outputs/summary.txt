@@ -1,0 +1,10 @@
+Student Performance Analysis - Task 1
+
+1) Average final grade (G3): 10.42
+2) Students scoring above 15: 40 / 395
+3) Studytime correlation with G3:
+   Spearman = 0.105, Pearson = 0.098
+4) Average grade by gender:
+sex
+Female     9.966346
+Male      10.914439
