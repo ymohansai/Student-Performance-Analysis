@@ -1,4 +1,4 @@
-# 🎓 Student Performance Analysis
+# Student Performance Analysis
 **Data Science Internship – Task 1 (Maincrafts)**  
 
 This project analyzes the **UCI Student Performance dataset** using Python (pandas, numpy, matplotlib, seaborn).  
@@ -7,13 +7,13 @@ It demonstrates the **data science workflow**:
 
 ---
 
-## 📊 Dataset
+## Dataset
 - Source: [UCI Machine Learning Repository – Student Performance Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip)  
 - File used: `student-mat.csv` (Math course)  
 
 ---
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 - Python 3.10+  
 - pandas, numpy  
 - matplotlib, seaborn  
@@ -22,7 +22,7 @@ It demonstrates the **data science workflow**:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 Student-Performance-Analysis/
 │── data/
@@ -35,7 +35,7 @@ Student-Performance-Analysis/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone repo**
    ```bash
@@ -56,15 +56,15 @@ Student-Performance-Analysis/
    ```
 
 4. **Outputs generated in `outputs/`**:
-   - 📊 Histogram of grades (`hist_grades.png`)
-   - 📈 Study time vs grades scatterplot (`scatter_studytime.png`)
-   - 🟦 Gender-wise bar chart (`bar_gender.png`)
-   - 📝 Cleaned dataset (CSV + Excel)
-   - 📄 Text summary (`summary.txt`)
+   -  Histogram of grades (`hist_grades.png`)
+   -  Study time vs grades scatterplot (`scatter_studytime.png`)
+   -  Gender-wise bar chart (`bar_gender.png`)
+   -  Cleaned dataset (CSV + Excel)
+   -  Text summary (`summary.txt`)
 
 ---
 
-## 📌 Analysis Performed
+##  Analysis Performed
 1. Average final grade (G3)  
 2. Students scoring above 15  
 3. Correlation: study time vs performance (Pearson & Spearman)  
@@ -72,11 +72,11 @@ Student-Performance-Analysis/
 
 ---
 
-## 📷 Example Output
+## Example Output
 (Outputs will appear in `outputs/` after running the script)
 
 ---
 
-## 📜 License
+## License
 MIT License  
 You are free to use and modify this project for learning purposes.
