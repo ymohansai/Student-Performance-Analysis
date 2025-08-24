@@ -16,5 +16,5 @@ It uses data analysis and graphs to find patterns in student marks.
 - README.md -> project details  
 
 ## How to Run
-1. Install the required libraries to run:
+1. Install the required libraries to run :- 
    pip install pandas matplotlib seaborn
