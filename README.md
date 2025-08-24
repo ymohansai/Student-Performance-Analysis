@@ -1,21 +1,82 @@
-# Student Performance Analysis
+# 🎓 Student Performance Analysis
+**Data Science Internship – Task 1 (Maincrafts)**  
 
-## About
-This project is about studying and understanding how students perform in exams.  
-It uses data analysis and graphs to find patterns in student marks.  
+This project analyzes the **UCI Student Performance dataset** using Python (pandas, numpy, matplotlib, seaborn).  
+It demonstrates the **data science workflow**:  
+**Load → Clean → Analyze → Visualize → Conclude**
 
-## Tools Used
-- *Python*
-- *Pandas* – for handling data  
-- *Matplotlib & Seaborn* – for making graphs  
+---
 
-## Project Structure
-- main.py -> main Python code  
-- data/ -> datasets (student scores)  
-- outputs/ -> graphs and results  
-- README.md -> project details  
+## 📊 Dataset
+- Source: [UCI Machine Learning Repository – Student Performance Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip)  
+- File used: `student-mat.csv` (Math course)  
 
-## How to Run
-1. Install the required libraries to run :- 
-   pip install pandas matplotlib seaborn
-2. To Run :- python main.py
+---
+
+## 🛠 Tools & Libraries
+- Python 3.10+  
+- pandas, numpy  
+- matplotlib, seaborn  
+- scipy (for correlation)  
+- openpyxl (for Excel export)  
+
+---
+
+## 📂 Project Structure
+```
+Student-Performance-Analysis/
+│── data/
+│   └── student-mat.csv        # dataset (place here)
+│── outputs/                   # generated results
+│── main.py                    # main project script
+│── requirements.txt           # dependencies
+│── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+1. **Clone repo**
+   ```bash
+   git clone https://github.com/ymohansai/Student-Performance-Analysis.git
+   cd Student-Performance-Analysis
+   ```
+
+2. **Create venv & install requirements**
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate   # Windows
+   pip install -r requirements.txt
+   ```
+
+3. **Run script**
+   ```bash
+   python main.py
+   ```
+
+4. **Outputs generated in `outputs/`**:
+   - 📊 Histogram of grades (`hist_grades.png`)
+   - 📈 Study time vs grades scatterplot (`scatter_studytime.png`)
+   - 🟦 Gender-wise bar chart (`bar_gender.png`)
+   - 📝 Cleaned dataset (CSV + Excel)
+   - 📄 Text summary (`summary.txt`)
+
+---
+
+## 📌 Analysis Performed
+1. Average final grade (G3)  
+2. Students scoring above 15  
+3. Correlation: study time vs performance (Pearson & Spearman)  
+4. Gender comparison (male vs female average grades)  
+
+---
+
+## 📷 Example Output
+(Outputs will appear in `outputs/` after running the script)
+
+---
+
+## 📜 License
+MIT License  
+You are free to use and modify this project for learning purposes.
